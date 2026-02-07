@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git ls-tree:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(timeout 15 npm run dev:*)",
+      "WebFetch(domain:icons.getbootstrap.com)",
+      "WebFetch(domain:brandfetch.com)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:marketplace.visualstudio.com)",
+      "WebFetch(domain:www.shadcn.io)",
+      "WebFetch(domain:mobbin.com)",
+      "WebFetch(domain:claude-plugins.dev)",
+      "WebFetch(domain:userstyles.org)",
+      "Bash(gh api:*)",
+      "Bash(where:*)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(ls -la \"c:\\\\Users\\\\sunny\\\\OneDrive\\\\Documents\\\\GitHub\\\\claude-clone\\\\src\\\\components\"\" 2>&1 || echo \"Directory listing failed \")",
+      "Bash(npx next build:*)"
+    ]
+  }
+}
